@@ -42,7 +42,7 @@ export const projects = [
   {
     id: nanoid(),
     img: tea_station,
-    url: 'https://tea-station01.netlify.app/',
+    url: 'https://tea-station-il8b.onrender.com/',
     github: 'https://github.com/rajeshsh565/tea_station',
     title: 'tea station',
     text: 'Tea Station is a minimalist home page design built with fundamental development practices. It features a fixed sidebar navigation, form handling through Formspree, and a focus on clean design with CSS variables and subtle animations.'
