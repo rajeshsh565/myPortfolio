@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-items {
+    @apply mx-auto max-w-7xl px-8 py-6;
+  }
+}
+
+.ani-underline {
+  width: 0%;
+  transition: width 0.5s ease-in;
+}
+
+.nav-link:hover .ani-underline {
+  width: 100%;
+}
+
+.gradient-text {
+  color: transparent;
+  /* background-clip to limit the gradient application only on text */
+  background-clip: text; 
+  background-image: linear-gradient(to left, red 5%, orange 65%, yellow 100%);
+}
